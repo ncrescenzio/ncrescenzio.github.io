@@ -61,3 +61,46 @@
    width: 100%;
    background-color: #0d6efd;
 }
+
+.timeline {
+   max-width: 850px;
+   padding-left: 30px;
+   border-left: 2px solid #0d6efd;
+}
+
+.timeline-modern-item {
+    position: relative;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+   .timeline-modern-item:before {
+       content: "";
+       position: absolute;
+       left: -39px;
+       top: -1px;
+       width: 16px;
+       height: 16px;
+       background: #0d6efd;
+       border-radius: 50%;
+   }
+}
+
+@media (max-width: 768px) {
+   .timeline {
+      padding-left: 0px;
+      border: 0px;
+   }
+
+   .timeline-modern-item {
+      font-size: 0.90rem;
+   }
+}
+
+a.btn.btn-sm {
+  padding: 0.05rem 0.3rem;
+  font-size: 0.70rem;
+}
