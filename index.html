@@ -3,17 +3,17 @@
 
 <!-- head -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nicolò Crescenzio">
-    <meta name="description" content="Personal Webpage of Nicolò Crescenzio">
-    <title>Nicolò Crescenzio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Nicolò Crescenzio">
+   <meta name="description" content="Personal Webpage of Nicolò Crescenzio">
+   <title>Nicolò Crescenzio</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -29,82 +29,87 @@
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#education">Education</a>
             <a class="nav-link" href="#experience">Work</a>
+            <a class="nav-link" href="#projects">Projects</a>
             <a class="nav-link" href="#contacts">Contacts</a>
          </div>
       </div>
    </div>
 </nav>
 
+
+<!-- main content -->
 <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" >
+
 
 <!-- home -->
 <section id="home" class="py-5">
-  <div class="container">
-    <div class="row align-items-center">
+   <div class="container">
+      <div class="row align-items-center">
 
-      <!-- 👤 Profile Image -->
-      <div class="col-lg-6 order-lg-2 order-1 text-center mb-4 mb-lg-0">
-        <img src="assets/photo-me.jpeg" class="img-fluid rounded-3 shadow-sm profile-image" alt="Portrait of Nicolò Crescenzio">
+         <!-- 👤 Profile Image -->
+         <div class="col-lg-6 order-lg-2 order-1 text-center mb-4 mb-lg-0">
+            <img src="assets/photo-me.jpeg" class="img-fluid rounded-3 shadow-sm profile-image" alt="Portrait of Nicolò Crescenzio">
+         </div>
+
+         <!-- 🧾 Bio + Links -->
+         <div class="col-lg-6 order-lg-1 order-2 text-center text-lg-start">
+            <div class="text-block">
+               <h1 class="display-5 fw-bold mb-2">Nicolò Crescenzio</h1>
+               <h3 class="text-secondary mb-3">Scientific Software Developer</h3>
+
+               <p class="mb-2">
+               <strong>Department of Mathematics "Tullio Levi-Civita",</strong>
+               <strong>University of Padova</strong>
+               </p>
+
+               <p class="mb-2">
+               <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+               <a href="https://maps.app.goo.gl/pxerjcowgU35XbU36" class="text-decoration-none">Via Trieste 63, 35121 – Padova, Italy</a>
+               </p>
+
+               <div class="d-flex flex-column flex-lg-row align-items-center gap-3 mt-4 justify-content-center justify-content-lg-start">
+
+                  <a href="assets/curriculum.pdf" class="btn btn-outline-dark btn-cv d-flex align-items-center justify-content-center" download>
+                     <i class="bi bi-file-earmark-pdf-fill me-2"></i>
+                     Download CV
+                  </a>
+
+                  <!-- 🔗 Social Links -->
+                  <div class="d-flex gap-2">
+                     <!-- Email -->
+                     <a href="mailto:nicolo.crescenzio@unipd.it" class="btn btn-outline-dark btn-icon" aria-label="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                     </a>
+
+                     <!-- GitHub -->
+                     <a href="https://github.com/ncrescenzio" class="btn btn-outline-dark btn-icon" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                     </a>
+
+                     <!-- LinkedIn -->
+                     <a href="https://www.linkedin.com/in/nico-crescenzio/" class="btn btn-outline-dark btn-icon" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                     </a>
+
+                     <!-- orcid -->
+                     <a href="https://orcid.org/0009-0008-2988-562X" class="btn btn-outline-dark btn-icon" aria-label="ORCID">
+                        <i class="ai ai-orcid ai-lg"></i>
+                     </a>
+
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+
       </div>
-
-      <!-- 🧾 Bio + Links -->
-      <div class="col-lg-6 order-lg-1 order-2 text-center text-lg-start">
-        <div class="text-block">
-          <h1 class="display-5 fw-bold mb-2">Nicolò Crescenzio</h1>
-          <h3 class="text-secondary mb-3">Scientific Software Developer</h3>
-
-          <p class="mb-2">
-            <strong>Department of Mathematics "Tullio Levi-Civita",</strong>
-            <strong>University of Padova</strong>
-          </p>
-
-          <p class="mb-2">
-            <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
-            <a href="https://maps.app.goo.gl/pxerjcowgU35XbU36" class="text-decoration-none">Via Trieste 63, 35121 – Padova, Italy</a>
-          </p>
-
-          <div class="d-flex flex-column flex-lg-row align-items-center gap-3 mt-4 justify-content-center justify-content-lg-start">
-
-             <a href="assets/curriculum.pdf" class="btn btn-outline-dark btn-cv d-flex align-items-center justify-content-center" download>
-                <i class="bi bi-file-earmark-pdf-fill me-2"></i>
-                Download CV
-             </a>
-
-             <!-- 🔗 Social Links -->
-             <div class="d-flex gap-2">
-                <!-- Email -->
-                <a href="mailto:nicolo.crescenzio@unipd.it" class="btn btn-outline-dark btn-icon" aria-label="Email">
-                   <i class="bi bi-envelope-fill"></i>
-                </a>
-
-                <!-- GitHub -->
-                <a href="https://github.com/ncrescenzio" class="btn btn-outline-dark btn-icon" aria-label="GitHub">
-                   <i class="bi bi-github"></i>
-                </a>
-
-                <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/nico-crescenzio/" class="btn btn-outline-dark btn-icon" aria-label="LinkedIn">
-                   <i class="bi bi-linkedin"></i>
-                </a>
-
-                <!-- orcid -->
-                <a href="https://orcid.org/0009-0008-2988-562X" class="btn btn-outline-dark btn-icon" aria-label="ORCID">
-                   <i class="ai ai-orcid ai-lg"></i>
-                </a>
-
-             </div>
-
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
+   </div>
 </section>
 
+
 <!-- education -->
-<section id="education" class="bg-light py-5">
+<section id="education" class="py-5">
   <div class="container">
     <div class="section-header mb-5">
       <h1 class="text-center display-5 fw-semibold">Education</h1>
@@ -134,7 +139,11 @@
 
       <div class="timeline-modern-item shadow mb-4">
          <p class="text-muted mb-1 fw-semibold">2018 – 2021</p>
-         <h5 class="fw-bold mb-1"><i class="bi bi-journal-text text-primary me-2"></i>M.Sc. in Mathematical Engineering</h5>
+         <h5 class="fw-bold mb-1"><i class="bi bi-journal-text text-primary me-2"></i>
+            <a href="https://bestr.it/award/show/jAzOtviJSk6k_tk26XjB5A?ln=it" class="text-decoration-none text-dark">
+               M.Sc. in Mathematical Engineering
+            </a>
+         </h5>
          <p class="mb-0">
          <i class="bi bi-geo-alt-fill me-0 text-primary"></i>
          <a href="https://www.dicea.unipd.it/" class="text-decoration-none">
@@ -158,8 +167,9 @@
   </div>
 </section>
 
+
 <!-- research and work experience -->
-<section id="experience" class="py-5">
+<section id="experience" class="bg-light py-5">
   <div class="container">
     <div class="section-header mb-5">
       <h1 class="text-center display-5 fw-semibold">Research & Work Experience</h1>
@@ -219,6 +229,122 @@
   </div>
 </section>
 
+
+<!-- projects -->
+<section id="projects" class="py-5">
+   <div class="container">
+      <div class="section-header mb-5">
+         <h1 class="text-center display-5 fw-semibold">Projects</h1>
+      </div>
+
+      <!-- kratos -->
+      <div class="card col-md-12 col-lg-8 mx-auto border border-0 shadow mb-4">
+         <div class="row g-0">
+            <!-- image col -->
+            <div class="col-md-5 p-2 m-auto">
+               <img src="assets/kratosLogo.png" class="img-fluid" alt="Kratos Multiphysics Logo">
+            </div>
+            <!-- title col -->
+            <div class="col-md-7 my-auto">
+               <div class="card-body text-center text-md-start">
+                  <h5 class="card-title">
+                     MPMApplication @ <br class="d-none d-md-block d-lg-none">KratosMultiphysics
+                     <a href="https://kratosmultiphysics.github.io/Kratos/pages/Applications/MPM_Application/General/remote_Overview.html" class="text-decoration-none" title="Official Docs">
+                        <i class="bi bi-link-45deg ms-1 fs-5"></i>
+                     </a>
+                     <a href="https://github.com/KratosMultiphysics/Kratos" class="text-decoration-none" title="GitHub Repository">
+                        <i class="bi bi-github ms-1 fs-5"></i>
+                     </a>
+                  </h5>
+                  <span class="badge rounded-pill text-bg-primary">C++</span>
+                  <span class="badge rounded-pill text-bg-primary">Python</span>
+                  <span class="badge rounded-pill text-bg-primary">GitHub</span>
+                  <span class="badge rounded-pill text-bg-primary">GiD</span>
+                  <span class="badge rounded-pill text-bg-primary">Paraview</span>
+               </div>
+            </div>
+         </div>
+         <!-- project description -->
+         <div class="card-body border-top border-2">
+            <p class="card-text text-muted expandable-text">
+            <span class="short-text">
+               I am part of the development and maintenance team of the
+               <strong>MPMApplication</strong> within the
+               <strong>KratosMultiphysics</strong> framework.
+               <a href="#" class="toggle-link text-decoration-none text-primary">show more</a>
+            </span>
+            <span class="full-text d-none">
+               I am part of the development and maintenance team of the
+               <strong>MPMApplication</strong> within the
+               <strong>KratosMultiphysics</strong> framework.
+               This application implements the Material Point Method (MPM) to
+               simulate complex non-linear phenomena involving large
+               deformations, such as free-surface flows, geomechanical
+               processes, and extreme events like impact, penetration, and
+               failure evolution.
+               The application also supports coupled simulations with other
+               numerical methods, including the Finite Element Method (FEM) and
+               the Discrete Element Method (DEM), broadening its range of
+               engineering and scientific applications.
+               <a href="#" class="toggle-link text-decoration-none text-primary"> show less</a>
+            </span>
+            </p>
+         </div>
+      </div>
+
+      <!-- kelvin voigt -->
+      <div class="card col-md-12 col-lg-8 mx-auto border border-0 shadow mb-4">
+         <div class="row g-0">
+            <!-- image col -->
+            <div class="col-md-5 p-1 m-auto">
+               <img src="assets/cropped-kv.png" class="img-fluid" alt="Wave on heterogeneous viscoelastic Kelvin-Voigt materials">
+            </div>
+            <!-- title col -->
+            <div class="col-md-7 my-auto">
+               <div class="card-body text-center text-md-start">
+                  <h5 class="card-title">
+                     Numerical Simulation of Wave Propagation Phenomena on Kelvin-Voigt Materials
+                  </h5>
+                  <span class="badge rounded-pill text-bg-primary">C++</span>
+                  <span class="badge rounded-pill text-bg-primary">Python</span>
+                  <span class="badge rounded-pill text-bg-primary">GitHub</span>
+                  <span class="badge rounded-pill text-bg-primary">GiD</span>
+                  <span class="badge rounded-pill text-bg-primary">Paraview</span>
+               </div>
+            </div>
+         </div>
+         <!-- project description -->
+         <div class="card-body border-top border-2">
+            <p class="card-text text-muted expandable-text">
+            <span class="short-text">
+               Development of a mathematical and numerical model for simulating
+               the propagation of waves on linear viscoelastic and
+               heterogeneous materials of Kelvin-Voigt type.
+               <a href="#" class="toggle-link text-decoration-none text-primary">show more</a>
+            </span>
+            <span class="full-text d-none">
+               Development of a mathematical and numerical model for simulating
+               the propagation of waves on linear viscoelastic and
+               heterogeneous materials of Kelvin-Voigt type.
+               Existence, uniqueness and regularity results for the solution of
+               the initial-boundary value problem describing the phenomenon
+               have been obtained by relying on the standard theory of linear
+               evolution equations in Hilbert spaces.
+               Then, the numerical solution has been computed by means of two
+               approaches: the Spectral Galerkin method, which is based on
+               boundary-adapted Legendre polynomials, and the Finite Element
+               Method, which uses piecewise linear Lagrangian basis functions
+               defined on an unstructured triangulation.
+               <a href="#" class="toggle-link text-decoration-none text-primary"> show less</a>
+            </span>
+            </p>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+
 <!-- contacts section -->
 <section id="contacts" class="bg-light py-5">
    <div class="container border-bottom pb-5">
@@ -227,7 +353,7 @@
       </div>
       <div class="row g-4 justify-content-center">
          <div class="col-md-6 col-lg-4">
-            <a href="mailto:nicolo.crescenzio@unipd.it" class="card h-100 text-center text-decoration-none">
+            <a href="mailto:nicolo.crescenzio@unipd.it" class="card text-center text-decoration-none">
                <div class="card-body fs-5">
                   <i class="bi bi-envelope-fill fs-3 mb-2 d-block text-primary"></i>
                   nicolo.crescenzio@unipd.it
@@ -235,7 +361,7 @@
             </a>
          </div>
          <div class="col-md-6 col-lg-4">
-            <a href="https://www.linkedin.com/in/nico-crescenzio/" class="card h-100 text-center text-decoration-none">
+            <a href="https://www.linkedin.com/in/nico-crescenzio/" class="card text-center text-decoration-none">
                <div class="card-body fs-5">
                   <i class="bi bi-linkedin fs-3 mb-2 d-block text-primary"></i>
                   in/nico-crescenzio
@@ -243,7 +369,7 @@
             </a>
          </div>
          <div class="col-md-6 col-lg-4">
-            <a href="https://github.com/ncrescenzio" class="card h-100 text-center text-decoration-none">
+            <a href="https://github.com/ncrescenzio" class="card text-center text-decoration-none">
                <div class="card-body fs-5">
                   <i class="bi bi-github fs-3 mb-2 d-block text-primary"></i>
                   ncrescenzio
@@ -254,11 +380,35 @@
    </div>
 
   <footer class="pt-5">
+    <p class="text-center text-muted small mb-0">Last update on July 2025</p>
     <p class="text-center text-muted small mb-0">© 2025 Nicolò Crescenzio. All rights reserved.</p>
   </footer>
 </section>
 
+
 </div>
+
+   <script>
+      document.querySelectorAll(".expandable-text").forEach(container => {
+         const shortText = container.querySelector(".short-text");
+         const fullText = container.querySelector(".full-text");
+
+         container.querySelectorAll(".toggle-link").forEach(link => {
+            link.addEventListener("click", (e) => {
+               e.preventDefault();
+               const isExpanded = !fullText.classList.contains("d-none");
+
+               if (isExpanded) {
+                  fullText.classList.add("d-none");
+                  shortText.classList.remove("d-none");
+               } else {
+                  fullText.classList.remove("d-none");
+                  shortText.classList.add("d-none");
+               }
+            });
+         });
+      });
+   </script>
 
    <script>
       document.addEventListener("DOMContentLoaded", function () {
